@@ -1,0 +1,25 @@
+1) hugo new site netlifycms
+
+2) 
+PS C:\Hugo> cd .\netlifycms\
+PS C:\Hugo\netlifycms> hugo server
+
+
+3) In the layouts/ directory, create a file index.html and put a basic HTML structure in there:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Nice. It's looking good already.</h1>
+  </body>
+</html>
+
+
+4) You'll also add some files to the content/ and data/ directories to make sure git tracks them.
+touch content/.keep data/.keep
