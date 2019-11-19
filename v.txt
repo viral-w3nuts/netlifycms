@@ -23,3 +23,14 @@ PS C:\Hugo\netlifycms> hugo server
 
 4) You'll also add some files to the content/ and data/ directories to make sure git tracks them.
 touch content/.keep data/.keep
+
+
+
+git add . 
+git commit -m "Initial Commit" 
+git remote add origin https://github.com/viral-w3nuts/netlifycms.git 
+git push -u origin master 
+
+
+
+https://api.netlify.com/github/app-installed?installation_id=5266894&setup_action=install
